@@ -15,7 +15,6 @@ from extEuclidAlgo import ExtendedEuclideanAlgorithm
 if __name__ == "__main__":
     # unittest.main()
     eea = ExtendedEuclideanAlgorithm()
-    eea.eea(999, 19)
-    print(eea.r)
-
-[999, 19, 11, 8, 3, 2, 1, 0]
+    print(eea.eea(243, 198))
+    # print(eea.eea(3587, 1819))
+    print(eea.formatExplanation())
